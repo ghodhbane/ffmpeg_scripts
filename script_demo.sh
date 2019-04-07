@@ -2,8 +2,8 @@
 
 #variable list
 bitrate1=1000k
-bitrate2=1000k
-bitrate3=1000k
+bitrate2=3000k
+bitrate3=5000k
 
 
 #command line
@@ -12,6 +12,6 @@ bitrate3=1000k
  
 ffmpeg $1 -bitrate $bitrate1 output_1K.mp4
 
-ffmpeg $1 -bitrate $bitrate1 output_3K.mp4
+ffmpeg $1 -bitrate $bitrate2 output_3K.mp4
 
-ffmpeg $1 -bitrate $bitrate1 output_5K.mp4
+ffmpeg $1 -bitrate $bitrate3 output_5K.mp4
